@@ -126,7 +126,7 @@ To run all tests, including unit and integration tests, run the following comman
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Mhamad Raad**
+👤 **Shaker Abady**
 
 - GitHub: [@githubhandle](https://github.com/shakerAbuDrais)
 
