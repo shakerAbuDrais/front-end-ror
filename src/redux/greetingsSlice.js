@@ -21,8 +21,9 @@ export const greetingsSlice = createSlice({
   reducers: {},
   extraReducers(builder) {
     builder.addCase(fetchGreeting.fulfilled, (state, action) => {
-      state.status = 'succeeded';
-      state.message = action.payload.msg;
+      const newState = state;
+      newState.status = 'succeeded';
+      newState.message = action.payload.msg;
     });
   },
 });
